@@ -1,11 +1,12 @@
-# revision 25430
+# revision 25489
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-collection-latexextra
-Version:	20120223
+Epoch:		1
+Version:	20120224
 Release:	1
 Summary:	LaTeX supplementary packages
 Group:		Publishing
@@ -437,6 +438,7 @@ Requires:	texlive-mdframed
 Requires:	texlive-meetingmins
 Requires:	texlive-memexsupp
 Requires:	texlive-menu
+Requires:	texlive-menukeys
 Requires:	texlive-method
 Requires:	texlive-metre
 Requires:	texlive-mftinc
