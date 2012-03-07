@@ -1,4 +1,4 @@
-# revision 25489
+# revision 25574
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-latexextra
 Epoch:		1
-Version:	20120224
+Version:	20120307
 Release:	1
 Summary:	LaTeX supplementary packages
 Group:		Publishing
@@ -364,6 +364,7 @@ Requires:	texlive-isonums
 Requires:	texlive-isodoc
 Requires:	texlive-isorot
 Requires:	texlive-isotope
+Requires:	texlive-issuulinks
 Requires:	texlive-iwhdp
 Requires:	texlive-jlabels
 Requires:	texlive-jvlisting
@@ -399,6 +400,7 @@ Requires:	texlive-listing
 Requires:	texlive-listofsymbols
 Requires:	texlive-listliketab
 Requires:	texlive-lkproof
+Requires:	texlive-lmake
 Requires:	texlive-locality
 Requires:	texlive-localloc
 Requires:	texlive-logbox
@@ -629,6 +631,7 @@ Requires:	texlive-sectsty
 Requires:	texlive-selectp
 Requires:	texlive-semantic
 Requires:	texlive-semioneside
+Requires:	texlive-sepfootnotes
 Requires:	texlive-seqsplit
 Requires:	texlive-serbian-apostrophe
 Requires:	texlive-serbian-date-lat
