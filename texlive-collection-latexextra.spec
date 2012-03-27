@@ -1,4 +1,4 @@
-# revision 25574
+# revision 25746
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-latexextra
 Epoch:		1
-Version:	20120307
+Version:	20120327
 Release:	1
 Summary:	LaTeX supplementary packages
 Group:		Publishing
@@ -269,7 +269,6 @@ Requires:	texlive-flabels
 Requires:	texlive-flacards
 Requires:	texlive-flagderiv
 Requires:	texlive-flashcards
-Requires:	texlive-flashmovie
 Requires:	texlive-flipbook
 Requires:	texlive-flippdf
 Requires:	texlive-floatflt
@@ -406,6 +405,7 @@ Requires:	texlive-localloc
 Requires:	texlive-logbox
 Requires:	texlive-logical-markup-utils
 Requires:	texlive-logpap
+Requires:	texlive-longnamefilelist
 Requires:	texlive-lsc
 Requires:	texlive-ltabptch
 Requires:	texlive-ltxdockit
@@ -458,13 +458,13 @@ Requires:	texlive-moderncv
 Requires:	texlive-moderntimeline
 Requires:	texlive-modref
 Requires:	texlive-modroman
+Requires:	texlive-monofill
 Requires:	texlive-moreenum
 Requires:	texlive-morefloats
 Requires:	texlive-morehype
 Requires:	texlive-moresize
 Requires:	texlive-moreverb
 Requires:	texlive-morewrites
-Requires:	texlive-movie15
 Requires:	texlive-mparhack
 Requires:	texlive-msc
 Requires:	texlive-msg
@@ -491,6 +491,7 @@ Requires:	texlive-newvbtm
 Requires:	texlive-newverbs
 Requires:	texlive-nextpage
 Requires:	texlive-nfssext-cfr
+Requires:	texlive-nicefilelist
 Requires:	texlive-niceframe
 Requires:	texlive-nicetext
 Requires:	texlive-nlctdoc
