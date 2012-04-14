@@ -1,4 +1,4 @@
-# revision 25746
+# revision 25893
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-latexextra
 Epoch:		1
-Version:	20120327
+Version:	20120413
 Release:	1
 Summary:	LaTeX supplementary packages
 Group:		Publishing
@@ -43,6 +43,7 @@ Requires:	texlive-anonchap
 Requires:	texlive-answers
 Requires:	texlive-anyfontsize
 Requires:	texlive-appendix
+Requires:	texlive-appendixnumberbeamer
 Requires:	texlive-arcs
 Requires:	texlive-arrayjobx
 Requires:	texlive-assignment
@@ -142,6 +143,7 @@ Requires:	texlive-cooking
 Requires:	texlive-cool
 Requires:	texlive-coollist
 Requires:	texlive-coolstr
+Requires:	texlive-coolthms
 Requires:	texlive-cooltooltips
 Requires:	texlive-coordsys
 Requires:	texlive-copyrightbox
@@ -244,6 +246,7 @@ Requires:	texlive-everypage
 Requires:	texlive-exam
 Requires:	texlive-examdesign
 Requires:	texlive-examplep
+Requires:	texlive-exceltex
 Requires:	texlive-excludeonly
 Requires:	texlive-exercise
 Requires:	texlive-exp-testopt
@@ -269,6 +272,7 @@ Requires:	texlive-flabels
 Requires:	texlive-flacards
 Requires:	texlive-flagderiv
 Requires:	texlive-flashcards
+Requires:	texlive-flashmovie
 Requires:	texlive-flipbook
 Requires:	texlive-flippdf
 Requires:	texlive-floatflt
@@ -347,6 +351,7 @@ Requires:	texlive-ifmtarg
 Requires:	texlive-ifnextok
 Requires:	texlive-ifoddpage
 Requires:	texlive-ifplatform
+Requires:	texlive-ifthenx
 Requires:	texlive-image-gallery
 Requires:	texlive-imakeidx
 Requires:	texlive-import
@@ -437,6 +442,7 @@ Requires:	texlive-mceinleger
 Requires:	texlive-mcite
 Requires:	texlive-mciteplus
 Requires:	texlive-mdframed
+Requires:	texlive-media9
 Requires:	texlive-meetingmins
 Requires:	texlive-memexsupp
 Requires:	texlive-menu
@@ -465,6 +471,7 @@ Requires:	texlive-morehype
 Requires:	texlive-moresize
 Requires:	texlive-moreverb
 Requires:	texlive-morewrites
+Requires:	texlive-movie15
 Requires:	texlive-mparhack
 Requires:	texlive-msc
 Requires:	texlive-msg
@@ -681,6 +688,7 @@ Requires:	texlive-standalone
 Requires:	texlive-statistik
 Requires:	texlive-stdclsdv
 Requires:	texlive-stdpage
+Requires:	texlive-stex
 Requires:	texlive-storebox
 Requires:	texlive-storecmd
 Requires:	texlive-stringstrings
@@ -715,7 +723,6 @@ Requires:	texlive-tabularew
 Requires:	texlive-tabulary
 Requires:	texlive-tagging
 Requires:	texlive-talk
-Requires:	texlive-taupin
 Requires:	texlive-tcldoc
 Requires:	texlive-tcolorbox
 Requires:	texlive-tdclock
