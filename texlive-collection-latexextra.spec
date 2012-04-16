@@ -7,7 +7,7 @@
 Name:		texlive-collection-latexextra
 Epoch:		1
 Version:	20120413
-Release:	1
+Release:	2
 Summary:	LaTeX supplementary packages
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -16,6 +16,7 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-latexe
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Suggests:	texlive-exceltex
 Requires:	texlive-collection-latexrecommended
 Requires:	texlive-collection-pictures
 Requires:	texlive-2up
@@ -246,7 +247,6 @@ Requires:	texlive-everypage
 Requires:	texlive-exam
 Requires:	texlive-examdesign
 Requires:	texlive-examplep
-Requires:	texlive-exceltex
 Requires:	texlive-excludeonly
 Requires:	texlive-exercise
 Requires:	texlive-exp-testopt
