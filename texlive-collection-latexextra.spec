@@ -1,4 +1,4 @@
-# revision 27346
+# revision 28014
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-latexextra
 Epoch:		1
-Version:	20120810
+Version:	20121030
 Release:	1
 Summary:	LaTeX supplementary packages
 Group:		Publishing
@@ -21,16 +21,19 @@ Requires:	texlive-collection-latexrecommended
 Requires:	texlive-collection-pictures
 Requires:	texlive-2up
 Requires:	texlive-ESIEEcv
+Requires:	texlive-GS1
 Requires:	texlive-HA-prosper
 Requires:	texlive-Tabbing
 Requires:	texlive-a0poster
 Requires:	texlive-a4wide
 Requires:	texlive-a5comb
+Requires:	texlive-abraces
 Requires:	texlive-abstract
 Requires:	texlive-achemso
 Requires:	texlive-acro
 Requires:	texlive-acronym
 Requires:	texlive-acroterm
+Requires:	texlive-actuarialangle
 Requires:	texlive-addlines
 Requires:	texlive-adjmulticol
 Requires:	texlive-adjustbox
@@ -88,6 +91,7 @@ Requires:	texlive-braket
 Requires:	texlive-breakurl
 Requires:	texlive-bullcntr
 Requires:	texlive-bussproofs
+Requires:	texlive-calcage
 Requires:	texlive-calctab
 Requires:	texlive-calculator
 Requires:	texlive-calrsfs
@@ -119,6 +123,7 @@ Requires:	texlive-chappg
 Requires:	texlive-chapterfolder
 Requires:	texlive-chet
 Requires:	texlive-chextras
+Requires:	texlive-chkfloat
 Requires:	texlive-chletter
 Requires:	texlive-chngcntr
 Requires:	texlive-chronology
@@ -153,6 +158,7 @@ Requires:	texlive-cooltooltips
 Requires:	texlive-coordsys
 Requires:	texlive-copyrightbox
 Requires:	texlive-coseoul
+Requires:	texlive-counttexruns
 Requires:	texlive-courseoutline
 Requires:	texlive-coursepaper
 Requires:	texlive-coverpage
@@ -259,6 +265,7 @@ Requires:	texlive-exercise
 Requires:	texlive-exp-testopt
 Requires:	texlive-expdlist
 Requires:	texlive-export
+Requires:	texlive-exsheets
 Requires:	texlive-extract
 Requires:	texlive-facsimile
 Requires:	texlive-fancynum
@@ -267,6 +274,7 @@ Requires:	texlive-fancytabs
 Requires:	texlive-fancytooltips
 Requires:	texlive-figsize
 Requires:	texlive-filecontents
+Requires:	texlive-filedate
 Requires:	texlive-filehook
 Requires:	texlive-fileinfo
 Requires:	texlive-filemod
@@ -294,6 +302,7 @@ Requires:	texlive-fncychap
 Requires:	texlive-fncylab
 Requires:	texlive-fnpara
 Requires:	texlive-fnpct
+Requires:	texlive-fnumprint
 Requires:	texlive-foilhtml
 Requires:	texlive-fontaxes
 Requires:	texlive-fonttable
@@ -398,6 +407,7 @@ Requires:	texlive-keyval2e
 Requires:	texlive-kix
 Requires:	texlive-koma-moderncvclassic
 Requires:	texlive-koma-script-sfs
+Requires:	texlive-ktv-texdata
 Requires:	texlive-labbook
 Requires:	texlive-labelcas
 Requires:	texlive-labels
@@ -429,6 +439,7 @@ Requires:	texlive-logbox
 Requires:	texlive-logical-markup-utils
 Requires:	texlive-logpap
 Requires:	texlive-longnamefilelist
+Requires:	texlive-loops
 Requires:	texlive-lsc
 Requires:	texlive-lstaddons
 Requires:	texlive-ltabptch
@@ -538,6 +549,7 @@ Requires:	texlive-nowidow
 Requires:	texlive-ntheorem
 Requires:	texlive-numname
 Requires:	texlive-numprint
+Requires:	texlive-ocgx
 Requires:	texlive-ocr-latex
 Requires:	texlive-octavo
 Requires:	texlive-oldstyle
@@ -731,6 +743,7 @@ Requires:	texlive-subfloat
 Requires:	texlive-substitutefont
 Requires:	texlive-substr
 Requires:	texlive-supertabular
+Requires:	texlive-svg
 Requires:	texlive-svgcolor
 Requires:	texlive-svn
 Requires:	texlive-svn-multi
@@ -819,6 +832,7 @@ Requires:	texlive-upmethodology
 Requires:	texlive-upquote
 Requires:	texlive-uri
 Requires:	texlive-ushort
+Requires:	texlive-uwmslide
 Requires:	texlive-varindex
 Requires:	texlive-varsfromjobname
 Requires:	texlive-varwidth
@@ -856,6 +870,7 @@ Requires:	texlive-xmpincl
 Requires:	texlive-xnewcommand
 Requires:	texlive-xoptarg
 Requires:	texlive-xpatch
+Requires:	texlive-xpeek
 Requires:	texlive-xpunctuate
 Requires:	texlive-xstring
 Requires:	texlive-xwatermark
