@@ -1,4 +1,4 @@
-# revision 27346
+# revision 31843
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-latexextra
 Epoch:		1
-Version:	20120810
+Version:	20131013
 Release:	1
-Summary:	LaTeX supplementary packages
+Summary:	LaTeX additional packages
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
@@ -21,16 +21,19 @@ Requires:	texlive-collection-latexrecommended
 Requires:	texlive-collection-pictures
 Requires:	texlive-2up
 Requires:	texlive-ESIEEcv
+Requires:	texlive-GS1
 Requires:	texlive-HA-prosper
 Requires:	texlive-Tabbing
 Requires:	texlive-a0poster
 Requires:	texlive-a4wide
 Requires:	texlive-a5comb
+Requires:	texlive-abraces
 Requires:	texlive-abstract
 Requires:	texlive-achemso
 Requires:	texlive-acro
 Requires:	texlive-acronym
 Requires:	texlive-acroterm
+Requires:	texlive-actuarialangle
 Requires:	texlive-addlines
 Requires:	texlive-adjmulticol
 Requires:	texlive-adjustbox
@@ -47,10 +50,13 @@ Requires:	texlive-answers
 Requires:	texlive-anyfontsize
 Requires:	texlive-appendix
 Requires:	texlive-appendixnumberbeamer
+Requires:	texlive-apptools
 Requires:	texlive-arcs
 Requires:	texlive-arrayjobx
+Requires:	texlive-arraysort
 Requires:	texlive-assignment
 Requires:	texlive-attachfile
+Requires:	texlive-autopdf
 Requires:	texlive-authoraftertitle
 Requires:	texlive-authorindex
 Requires:	texlive-autonum
@@ -61,8 +67,10 @@ Requires:	texlive-beamer2thesis
 Requires:	texlive-beameraudience
 Requires:	texlive-beamerposter
 Requires:	texlive-beamersubframe
+Requires:	texlive-beamertheme-upenn-bc
 Requires:	texlive-beamerthemejltree
 Requires:	texlive-beamerthemenirma
+Requires:	texlive-beamerthemephnompenh
 Requires:	texlive-begriff
 Requires:	texlive-beton
 Requires:	texlive-bez123
@@ -88,6 +96,8 @@ Requires:	texlive-braket
 Requires:	texlive-breakurl
 Requires:	texlive-bullcntr
 Requires:	texlive-bussproofs
+Requires:	texlive-bxdpx-beamer
+Requires:	texlive-calcage
 Requires:	texlive-calctab
 Requires:	texlive-calculator
 Requires:	texlive-calrsfs
@@ -119,15 +129,20 @@ Requires:	texlive-chappg
 Requires:	texlive-chapterfolder
 Requires:	texlive-chet
 Requires:	texlive-chextras
+Requires:	texlive-chkfloat
 Requires:	texlive-chletter
 Requires:	texlive-chngcntr
 Requires:	texlive-chronology
 Requires:	texlive-circ
+Requires:	texlive-classics
 Requires:	texlive-clefval
 Requires:	texlive-cleveref
+Requires:	texlive-clipboard
 Requires:	texlive-clock
 Requires:	texlive-cmdstring
+Requires:	texlive-cmdtrack
 Requires:	texlive-cmsd
+Requires:	texlive-cnltx
 Requires:	texlive-codedoc
 Requires:	texlive-codepage
 Requires:	texlive-collcell
@@ -136,14 +151,18 @@ Requires:	texlive-colordoc
 Requires:	texlive-colorinfo
 Requires:	texlive-colortab
 Requires:	texlive-colorwav
+Requires:	texlive-colorweb
 Requires:	texlive-colourchange
 Requires:	texlive-combelow
 Requires:	texlive-combine
 Requires:	texlive-comma
+Requires:	texlive-commado
 Requires:	texlive-comment
+Requires:	texlive-concepts
 Requires:	texlive-concprog
 Requires:	texlive-constants
 Requires:	texlive-contour
+Requires:	texlive-contracard
 Requires:	texlive-cooking
 Requires:	texlive-cool
 Requires:	texlive-coollist
@@ -153,6 +172,7 @@ Requires:	texlive-cooltooltips
 Requires:	texlive-coordsys
 Requires:	texlive-copyrightbox
 Requires:	texlive-coseoul
+Requires:	texlive-counttexruns
 Requires:	texlive-courseoutline
 Requires:	texlive-coursepaper
 Requires:	texlive-coverpage
@@ -182,6 +202,7 @@ Requires:	texlive-delim
 Requires:	texlive-delimtxt
 Requires:	texlive-diagbox
 Requires:	texlive-diagnose
+Requires:	texlive-dialogl
 Requires:	texlive-dichokey
 Requires:	texlive-dinbrief
 Requires:	texlive-directory
@@ -194,6 +215,7 @@ Requires:	texlive-documentation
 Requires:	texlive-doi
 Requires:	texlive-dotarrow
 Requires:	texlive-dotseqn
+Requires:	texlive-download
 Requires:	texlive-dox
 Requires:	texlive-dpfloat
 Requires:	texlive-dprogress
@@ -241,11 +263,13 @@ Requires:	texlive-eqlist
 Requires:	texlive-eqname
 Requires:	texlive-eqparbox
 Requires:	texlive-errata
+Requires:	texlive-esami
 Requires:	texlive-esdiff
 Requires:	texlive-esint
 Requires:	texlive-esint-type1
 Requires:	texlive-etaremune
 Requires:	texlive-etextools
+Requires:	texlive-etoc
 Requires:	texlive-etoolbox
 Requires:	texlive-eukdate
 Requires:	texlive-europecv
@@ -259,14 +283,18 @@ Requires:	texlive-exercise
 Requires:	texlive-exp-testopt
 Requires:	texlive-expdlist
 Requires:	texlive-export
+Requires:	texlive-exsheets
+Requires:	texlive-exsol
 Requires:	texlive-extract
 Requires:	texlive-facsimile
+Requires:	texlive-factura
 Requires:	texlive-fancynum
 Requires:	texlive-fancypar
 Requires:	texlive-fancytabs
 Requires:	texlive-fancytooltips
 Requires:	texlive-figsize
 Requires:	texlive-filecontents
+Requires:	texlive-filedate
 Requires:	texlive-filehook
 Requires:	texlive-fileinfo
 Requires:	texlive-filemod
@@ -294,6 +322,7 @@ Requires:	texlive-fncychap
 Requires:	texlive-fncylab
 Requires:	texlive-fnpara
 Requires:	texlive-fnpct
+Requires:	texlive-fnumprint
 Requires:	texlive-foilhtml
 Requires:	texlive-fontaxes
 Requires:	texlive-fonttable
@@ -311,7 +340,6 @@ Requires:	texlive-frame
 Requires:	texlive-framed
 Requires:	texlive-frankenstein
 Requires:	texlive-frege
-Requires:	texlive-friulan
 Requires:	texlive-ftcap
 Requires:	texlive-ftnxtra
 Requires:	texlive-fullblck
@@ -326,7 +354,6 @@ Requires:	texlive-gcard
 Requires:	texlive-gcite
 Requires:	texlive-genmpage
 Requires:	texlive-getfiledate
-Requires:	texlive-ghab
 Requires:	texlive-ginpenc
 Requires:	texlive-gitinfo
 Requires:	texlive-gloss
@@ -341,6 +368,7 @@ Requires:	texlive-graphicx-psmin
 Requires:	texlive-grfpaste
 Requires:	texlive-grid
 Requires:	texlive-gridset
+Requires:	texlive-gtl
 Requires:	texlive-guitlogo
 Requires:	texlive-hanging
 Requires:	texlive-hardwrap
@@ -361,6 +389,7 @@ Requires:	texlive-hypernat
 Requires:	texlive-hyperref-docsrc
 Requires:	texlive-hyperxmp
 Requires:	texlive-hyphenat
+Requires:	texlive-idxcmds
 Requires:	texlive-idxlayout
 Requires:	texlive-ifmslide
 Requires:	texlive-ifmtarg
@@ -368,6 +397,7 @@ Requires:	texlive-ifnextok
 Requires:	texlive-ifoddpage
 Requires:	texlive-ifplatform
 Requires:	texlive-ifthenx
+Requires:	texlive-iitem
 Requires:	texlive-image-gallery
 Requires:	texlive-imakeidx
 Requires:	texlive-import
@@ -398,6 +428,7 @@ Requires:	texlive-keyval2e
 Requires:	texlive-kix
 Requires:	texlive-koma-moderncvclassic
 Requires:	texlive-koma-script-sfs
+Requires:	texlive-ktv-texdata
 Requires:	texlive-labbook
 Requires:	texlive-labelcas
 Requires:	texlive-labels
@@ -410,6 +441,7 @@ Requires:	texlive-lcg
 Requires:	texlive-leading
 Requires:	texlive-leaflet
 Requires:	texlive-leftidx
+Requires:	texlive-lengthconvert
 Requires:	texlive-lettre
 Requires:	texlive-lettrine
 Requires:	texlive-lewis
@@ -418,6 +450,7 @@ Requires:	texlive-libgreek
 Requires:	texlive-limap
 Requires:	texlive-linegoal
 Requires:	texlive-lipsum
+Requires:	texlive-lisp-on-tex
 Requires:	texlive-listing
 Requires:	texlive-listofsymbols
 Requires:	texlive-listliketab
@@ -429,14 +462,17 @@ Requires:	texlive-logbox
 Requires:	texlive-logical-markup-utils
 Requires:	texlive-logpap
 Requires:	texlive-longnamefilelist
+Requires:	texlive-loops
 Requires:	texlive-lsc
 Requires:	texlive-lstaddons
+Requires:	texlive-ltablex
 Requires:	texlive-ltabptch
 Requires:	texlive-ltxdockit
 Requires:	texlive-ltxindex
 Requires:	texlive-ltxkeys
 Requires:	texlive-ltxnew
 Requires:	texlive-ltxtools
+Requires:	texlive-macroswap
 Requires:	texlive-magaz
 Requires:	texlive-mailing
 Requires:	texlive-mailmerge
@@ -447,6 +483,7 @@ Requires:	texlive-makecirc
 Requires:	texlive-makecmds
 Requires:	texlive-makedtx
 Requires:	texlive-makeglos
+Requires:	texlive-mandi
 Requires:	texlive-manfnt
 Requires:	texlive-manuscript
 Requires:	texlive-marginfix
@@ -464,6 +501,7 @@ Requires:	texlive-mdframed
 Requires:	texlive-media9
 Requires:	texlive-meetingmins
 Requires:	texlive-memexsupp
+Requires:	texlive-memory
 Requires:	texlive-menu
 Requires:	texlive-menukeys
 Requires:	texlive-method
@@ -471,6 +509,7 @@ Requires:	texlive-metre
 Requires:	texlive-mftinc
 Requires:	texlive-midpage
 Requires:	texlive-minibox
+Requires:	texlive-minifp
 Requires:	texlive-minipage-marginpar
 Requires:	texlive-minitoc
 Requires:	texlive-minted
@@ -479,6 +518,7 @@ Requires:	texlive-misc209
 Requires:	texlive-mla-paper
 Requires:	texlive-mlist
 Requires:	texlive-mmap
+Requires:	texlive-mnotes
 Requires:	texlive-moderncv
 Requires:	texlive-moderntimeline
 Requires:	texlive-modref
@@ -500,9 +540,11 @@ Requires:	texlive-multenum
 Requires:	texlive-multibbl
 Requires:	texlive-multicap
 Requires:	texlive-multienv
+Requires:	texlive-multiexpand
 Requires:	texlive-multirow
 Requires:	texlive-mversion
 Requires:	texlive-mwe
+Requires:	texlive-mweights
 Requires:	texlive-mycv
 Requires:	texlive-mylatexformat
 Requires:	texlive-nag
@@ -513,6 +555,7 @@ Requires:	texlive-ncctools
 Requires:	texlive-needspace
 Requires:	texlive-nestquot
 Requires:	texlive-newcommand
+Requires:	texlive-newenviron
 Requires:	texlive-newfile
 Requires:	texlive-newlfm
 Requires:	texlive-newspaper
@@ -525,6 +568,8 @@ Requires:	texlive-nicefilelist
 Requires:	texlive-niceframe
 Requires:	texlive-nicetext
 Requires:	texlive-nlctdoc
+Requires:	texlive-noconflict
+Requires:	texlive-noindentafter
 Requires:	texlive-noitcrul
 Requires:	texlive-nolbreaks
 Requires:	texlive-nomencl
@@ -535,9 +580,13 @@ Requires:	texlive-nopageno
 Requires:	texlive-notes
 Requires:	texlive-notoccite
 Requires:	texlive-nowidow
+Requires:	texlive-nox
 Requires:	texlive-ntheorem
+Requires:	texlive-numberedblock
 Requires:	texlive-numname
 Requires:	texlive-numprint
+Requires:	texlive-ocg-p
+Requires:	texlive-ocgx
 Requires:	texlive-ocr-latex
 Requires:	texlive-octavo
 Requires:	texlive-oldstyle
@@ -590,7 +639,6 @@ Requires:	texlive-placeins
 Requires:	texlive-plates
 Requires:	texlive-plantslabels
 Requires:	texlive-plweb
-Requires:	texlive-polyglot
 Requires:	texlive-polynom
 Requires:	texlive-polynomial
 Requires:	texlive-polytable
@@ -620,10 +668,12 @@ Requires:	texlive-qstest
 Requires:	texlive-qsymbols
 Requires:	texlive-quotchap
 Requires:	texlive-quotmark
+Requires:	texlive-ran_toks
 Requires:	texlive-randtext
 Requires:	texlive-rccol
 Requires:	texlive-rcs-multi
 Requires:	texlive-rcsinfo
+Requires:	texlive-readarray
 Requires:	texlive-realboxes
 Requires:	texlive-recipe
 Requires:	texlive-recipecard
@@ -646,9 +696,10 @@ Requires:	texlive-robustindex
 Requires:	texlive-romanbar
 Requires:	texlive-romanneg
 Requires:	texlive-romannum
-Requires:	texlive-romansh
 Requires:	texlive-rotfloat
 Requires:	texlive-rotpages
+Requires:	texlive-roundbox
+Requires:	texlive-rterface
 Requires:	texlive-rtkinenc
 Requires:	texlive-rvwrite
 Requires:	texlive-sauerj
@@ -657,6 +708,7 @@ Requires:	texlive-savesym
 Requires:	texlive-savetrees
 Requires:	texlive-scale
 Requires:	texlive-scalebar
+Requires:	texlive-scalerel
 Requires:	texlive-sdrt
 Requires:	texlive-secdot
 Requires:	texlive-sectionbox
@@ -666,11 +718,6 @@ Requires:	texlive-semantic
 Requires:	texlive-semioneside
 Requires:	texlive-sepfootnotes
 Requires:	texlive-seqsplit
-Requires:	texlive-serbian-apostrophe
-Requires:	texlive-serbian-date-lat
-Requires:	texlive-serbian-def-cyr
-Requires:	texlive-serbian-lig
-Requires:	texlive-serbianc
 Requires:	texlive-sf298
 Requires:	texlive-sffms
 Requires:	texlive-sfmath
@@ -682,6 +729,7 @@ Requires:	texlive-shipunov
 Requires:	texlive-shorttoc
 Requires:	texlive-show2e
 Requires:	texlive-showcharinbox
+Requires:	texlive-showdim
 Requires:	texlive-showexpl
 Requires:	texlive-showlabels
 Requires:	texlive-sidecap
@@ -692,12 +740,15 @@ Requires:	texlive-simplecv
 Requires:	texlive-simplewick
 Requires:	texlive-sitem
 Requires:	texlive-skb
+Requires:	texlive-skdoc
 Requires:	texlive-skeycommand
 Requires:	texlive-skeyval
+Requires:	texlive-skrapport
 Requires:	texlive-slantsc
 Requires:	texlive-smalltableof
 Requires:	texlive-smartref
 Requires:	texlive-snapshot
+Requires:	texlive-snotez
 Requires:	texlive-soul
 Requires:	texlive-spanglish
 Requires:	texlive-sparklines
@@ -711,6 +762,7 @@ Requires:	texlive-srbook-mem
 Requires:	texlive-srcltx
 Requires:	texlive-sseq
 Requires:	texlive-stack
+Requires:	texlive-stackengine
 Requires:	texlive-standalone
 Requires:	texlive-statistik
 Requires:	texlive-stdclsdv
@@ -731,6 +783,7 @@ Requires:	texlive-subfloat
 Requires:	texlive-substitutefont
 Requires:	texlive-substr
 Requires:	texlive-supertabular
+Requires:	texlive-svg
 Requires:	texlive-svgcolor
 Requires:	texlive-svn
 Requires:	texlive-svn-multi
@@ -742,6 +795,7 @@ Requires:	texlive-synttree
 Requires:	texlive-tabfigures
 Requires:	texlive-tableaux
 Requires:	texlive-tablefootnote
+Requires:	texlive-tableof
 Requires:	texlive-tablists
 Requires:	texlive-tabls
 Requires:	texlive-tabto-ltx
@@ -771,6 +825,7 @@ Requires:	texlive-textgreek
 Requires:	texlive-textmerg
 Requires:	texlive-textpos
 Requires:	texlive-theoremref
+Requires:	texlive-threadcol
 Requires:	texlive-threeparttable
 Requires:	texlive-threeparttablex
 Requires:	texlive-thinsp
@@ -779,7 +834,7 @@ Requires:	texlive-thumb
 Requires:	texlive-thumbs
 Requires:	texlive-thumby
 Requires:	texlive-ticket
-Requires:	texlive-timesht
+Requires:	texlive-titlecaps
 Requires:	texlive-titlefoot
 Requires:	texlive-titlepic
 Requires:	texlive-titleref
@@ -795,7 +850,7 @@ Requires:	texlive-toolbox
 Requires:	texlive-topfloat
 Requires:	texlive-totcount
 Requires:	texlive-totpages
-Requires:	texlive-tram
+Requires:	texlive-translations
 Requires:	texlive-trfsigns
 Requires:	texlive-trimspaces
 Requires:	texlive-trsym
@@ -813,15 +868,19 @@ Requires:	texlive-ucs
 Requires:	texlive-uebungsblatt
 Requires:	texlive-umoline
 Requires:	texlive-underlin
+Requires:	texlive-underoverlap
 Requires:	texlive-undolabl
 Requires:	texlive-units
+Requires:	texlive-unravel
 Requires:	texlive-upmethodology
 Requires:	texlive-upquote
 Requires:	texlive-uri
 Requires:	texlive-ushort
+Requires:	texlive-uwmslide
 Requires:	texlive-varindex
 Requires:	texlive-varsfromjobname
 Requires:	texlive-varwidth
+Requires:	texlive-vdmlisting
 Requires:	texlive-verbasef
 Requires:	texlive-verbatimbox
 Requires:	texlive-verbatimcopy
@@ -845,17 +904,18 @@ Requires:	texlive-williams
 Requires:	texlive-wordlike
 Requires:	texlive-wrapfig
 Requires:	texlive-xargs
-Requires:	texlive-xbmc
 Requires:	texlive-xcomment
 Requires:	texlive-xhfill
 Requires:	texlive-xtab
 Requires:	texlive-xdoc
 Requires:	texlive-xfor
 Requires:	texlive-xifthen
+Requires:	texlive-xint
 Requires:	texlive-xmpincl
 Requires:	texlive-xnewcommand
 Requires:	texlive-xoptarg
 Requires:	texlive-xpatch
+Requires:	texlive-xpeek
 Requires:	texlive-xpunctuate
 Requires:	texlive-xstring
 Requires:	texlive-xwatermark
@@ -872,7 +932,7 @@ Requires:	texlive-zwpagelayout
 %rename texlive-texmf-latex
 
 %description
-A large collection of add-on packages for LaTeX.
+A very large collection of add-on packages for LaTeX.
 
 %posttrans
     %{_sbindir}/texlive.post -
@@ -887,32 +947,3 @@ A large collection of add-on packages for LaTeX.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
-+ Revision: 813933
-- Update to latest release.
-
-* Mon Apr 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120413-2
-+ Revision: 791392
-- Avoid need to move contrib packages to main.
-
-* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120413-1
-+ Revision: 790848
-- Update to latest release.
-
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120327-1
-+ Revision: 787861
-- Update to latest release.
-
-* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120307-1
-+ Revision: 783100
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780492
-- Update to latest release.
-- Import texlive-collection-latexextra
-- Import texlive-collection-latexextra
-
