@@ -1,4 +1,4 @@
-# revision 31843
+# revision 32263
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-latexextra
 Epoch:		1
-Version:	20131013
+Version:	20131201
 Release:	1
 Summary:	LaTeX additional packages
 Group:		Publishing
@@ -242,6 +242,7 @@ Requires:	texlive-ellipsis
 Requires:	texlive-elmath
 Requires:	texlive-elpres
 Requires:	texlive-emarks
+Requires:	texlive-embedall
 Requires:	texlive-embrac
 Requires:	texlive-emptypage
 Requires:	texlive-emulateapj
@@ -367,6 +368,7 @@ Requires:	texlive-gmverb
 Requires:	texlive-graphicx-psmin
 Requires:	texlive-grfpaste
 Requires:	texlive-grid
+Requires:	texlive-grid-system
 Requires:	texlive-gridset
 Requires:	texlive-gtl
 Requires:	texlive-guitlogo
@@ -512,6 +514,7 @@ Requires:	texlive-minibox
 Requires:	texlive-minifp
 Requires:	texlive-minipage-marginpar
 Requires:	texlive-minitoc
+Requires:	texlive-minorrevision
 Requires:	texlive-minted
 Requires:	texlive-minutes
 Requires:	texlive-misc209
@@ -611,6 +614,7 @@ Requires:	texlive-paralist
 Requires:	texlive-paresse
 Requires:	texlive-parnotes
 Requires:	texlive-parselines
+Requires:	texlive-pas-cv
 Requires:	texlive-patch
 Requires:	texlive-patchcmd
 Requires:	texlive-pauldoc
@@ -679,6 +683,7 @@ Requires:	texlive-recipe
 Requires:	texlive-recipecard
 Requires:	texlive-rectopma
 Requires:	texlive-refcheck
+Requires:	texlive-reflectgraphics
 Requires:	texlive-refman
 Requires:	texlive-refstyle
 Requires:	texlive-regcount
@@ -901,6 +906,7 @@ Requires:	texlive-warpcol
 Requires:	texlive-was
 Requires:	texlive-widetable
 Requires:	texlive-williams
+Requires:	texlive-withargs
 Requires:	texlive-wordlike
 Requires:	texlive-wrapfig
 Requires:	texlive-xargs
