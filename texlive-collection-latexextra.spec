@@ -1,4 +1,4 @@
-# revision 32263
+# revision 32944
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-latexextra
 Epoch:		1
-Version:	20131201
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	LaTeX additional packages
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -187,10 +187,12 @@ Requires:	texlive-currfile
 Requires:	texlive-currvita
 Requires:	texlive-cutwin
 Requires:	texlive-cv
+Requires:	texlive-cv4tw
 Requires:	texlive-cweb-latex
 Requires:	texlive-dashbox
 Requires:	texlive-dashrule
 Requires:	texlive-dashundergaps
+Requires:	texlive-dataref
 Requires:	texlive-datatool
 Requires:	texlive-dateiliste
 Requires:	texlive-datenumber
@@ -200,6 +202,7 @@ Requires:	texlive-decimal
 Requires:	texlive-decorule
 Requires:	texlive-delim
 Requires:	texlive-delimtxt
+Requires:	texlive-detlev-cm
 Requires:	texlive-diagbox
 Requires:	texlive-diagnose
 Requires:	texlive-dialogl
@@ -361,11 +364,11 @@ Requires:	texlive-gloss
 Requires:	texlive-glossaries
 Requires:	texlive-gmdoc
 Requires:	texlive-gmdoc-enhance
-Requires:	texlive-gmeometric
 Requires:	texlive-gmiflink
 Requires:	texlive-gmutils
 Requires:	texlive-gmverb
 Requires:	texlive-graphicx-psmin
+Requires:	texlive-graphicxbox
 Requires:	texlive-grfpaste
 Requires:	texlive-grid
 Requires:	texlive-grid-system
@@ -467,6 +470,7 @@ Requires:	texlive-longnamefilelist
 Requires:	texlive-loops
 Requires:	texlive-lsc
 Requires:	texlive-lstaddons
+Requires:	texlive-lt3graph
 Requires:	texlive-ltablex
 Requires:	texlive-ltabptch
 Requires:	texlive-ltxdockit
@@ -614,7 +618,9 @@ Requires:	texlive-paralist
 Requires:	texlive-paresse
 Requires:	texlive-parnotes
 Requires:	texlive-parselines
+Requires:	texlive-pas-cours
 Requires:	texlive-pas-cv
+Requires:	texlive-pas-tableur
 Requires:	texlive-patch
 Requires:	texlive-patchcmd
 Requires:	texlive-pauldoc
@@ -632,13 +638,14 @@ Requires:	texlive-pdfsync
 Requires:	texlive-pdfwin
 Requires:	texlive-pdfx
 Requires:	texlive-pecha
+Requires:	texlive-perfectcut
 Requires:	texlive-perltex
 Requires:	texlive-permute
 Requires:	texlive-petiteannonce
 Requires:	texlive-philex
 Requires:	texlive-photo
 Requires:	texlive-piff
-Requires:	texlive-pittetd
+Requires:	texlive-pkgloader
 Requires:	texlive-placeins
 Requires:	texlive-plates
 Requires:	texlive-plantslabels
@@ -683,6 +690,7 @@ Requires:	texlive-recipe
 Requires:	texlive-recipecard
 Requires:	texlive-rectopma
 Requires:	texlive-refcheck
+Requires:	texlive-refenums
 Requires:	texlive-reflectgraphics
 Requires:	texlive-refman
 Requires:	texlive-refstyle
@@ -706,6 +714,7 @@ Requires:	texlive-rotpages
 Requires:	texlive-roundbox
 Requires:	texlive-rterface
 Requires:	texlive-rtkinenc
+Requires:	texlive-rulercompass
 Requires:	texlive-rvwrite
 Requires:	texlive-sauerj
 Requires:	texlive-savefnmark
@@ -714,6 +723,7 @@ Requires:	texlive-savetrees
 Requires:	texlive-scale
 Requires:	texlive-scalebar
 Requires:	texlive-scalerel
+Requires:	texlive-scanpages
 Requires:	texlive-sdrt
 Requires:	texlive-secdot
 Requires:	texlive-sectionbox
@@ -766,6 +776,7 @@ Requires:	texlive-spotcolor
 Requires:	texlive-srbook-mem
 Requires:	texlive-srcltx
 Requires:	texlive-sseq
+Requires:	texlive-sslides
 Requires:	texlive-stack
 Requires:	texlive-stackengine
 Requires:	texlive-standalone
@@ -803,6 +814,7 @@ Requires:	texlive-tablefootnote
 Requires:	texlive-tableof
 Requires:	texlive-tablists
 Requires:	texlive-tabls
+Requires:	texlive-tabstackengine
 Requires:	texlive-tabto-ltx
 Requires:	texlive-tabu
 Requires:	texlive-tabularborder
@@ -894,6 +906,7 @@ Requires:	texlive-verbments
 Requires:	texlive-version
 Requires:	texlive-versions
 Requires:	texlive-vertbars
+Requires:	texlive-vgrid
 Requires:	texlive-vhistory
 Requires:	texlive-vmargin
 Requires:	texlive-volumes
