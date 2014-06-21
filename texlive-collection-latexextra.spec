@@ -1,4 +1,4 @@
-# revision 32944
+# revision 34302
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-latexextra
 Epoch:		1
-Version:	20140215
-Release:	2
+Version:	20140621
+Release:	1
 Summary:	LaTeX additional packages
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -71,7 +71,6 @@ Requires:	texlive-beamertheme-upenn-bc
 Requires:	texlive-beamerthemejltree
 Requires:	texlive-beamerthemenirma
 Requires:	texlive-beamerthemephnompenh
-Requires:	texlive-begriff
 Requires:	texlive-beton
 Requires:	texlive-bez123
 Requires:	texlive-bezos
@@ -240,6 +239,7 @@ Requires:	texlive-ecv
 Requires:	texlive-ed
 Requires:	texlive-edmargin
 Requires:	texlive-eemeir
+Requires:	texlive-efbox
 Requires:	texlive-egplot
 Requires:	texlive-ellipsis
 Requires:	texlive-elmath
@@ -280,7 +280,9 @@ Requires:	texlive-europecv
 Requires:	texlive-everyhook
 Requires:	texlive-everypage
 Requires:	texlive-exam
+Requires:	texlive-exam-n
 Requires:	texlive-examdesign
+Requires:	texlive-example
 Requires:	texlive-examplep
 Requires:	texlive-excludeonly
 Requires:	texlive-exercise
@@ -296,6 +298,7 @@ Requires:	texlive-fancynum
 Requires:	texlive-fancypar
 Requires:	texlive-fancytabs
 Requires:	texlive-fancytooltips
+Requires:	texlive-fifo-stack
 Requires:	texlive-figsize
 Requires:	texlive-filecontents
 Requires:	texlive-filedate
@@ -375,6 +378,7 @@ Requires:	texlive-grid-system
 Requires:	texlive-gridset
 Requires:	texlive-gtl
 Requires:	texlive-guitlogo
+Requires:	texlive-handout
 Requires:	texlive-hanging
 Requires:	texlive-hardwrap
 Requires:	texlive-harnon-cv
@@ -466,6 +470,7 @@ Requires:	texlive-localloc
 Requires:	texlive-logbox
 Requires:	texlive-logical-markup-utils
 Requires:	texlive-logpap
+Requires:	texlive-longfigure
 Requires:	texlive-longnamefilelist
 Requires:	texlive-loops
 Requires:	texlive-lsc
@@ -521,7 +526,6 @@ Requires:	texlive-minitoc
 Requires:	texlive-minorrevision
 Requires:	texlive-minted
 Requires:	texlive-minutes
-Requires:	texlive-misc209
 Requires:	texlive-mla-paper
 Requires:	texlive-mlist
 Requires:	texlive-mmap
@@ -701,6 +705,7 @@ Requires:	texlive-regstats
 Requires:	texlive-relenc
 Requires:	texlive-relsize
 Requires:	texlive-repeatindex
+Requires:	texlive-repltext
 Requires:	texlive-rjlparshap
 Requires:	texlive-rlepsf
 Requires:	texlive-rmpage
@@ -728,6 +733,7 @@ Requires:	texlive-sdrt
 Requires:	texlive-secdot
 Requires:	texlive-sectionbox
 Requires:	texlive-sectsty
+Requires:	texlive-seealso
 Requires:	texlive-selectp
 Requires:	texlive-semantic
 Requires:	texlive-semioneside
