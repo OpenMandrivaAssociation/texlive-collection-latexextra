@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-latexextra
 Epoch:		1
-Version:	20180620
+Version:	20180731
 Release:	1
 Summary:	LaTeX additional packages
 Group:		Publishing
