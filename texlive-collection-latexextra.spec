@@ -1,18 +1,12 @@
-# revision 34302
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-latexextra
 Epoch:		1
-Version:	20190406
+Version:	64783
 Release:	1
 Summary:	LaTeX additional packages
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-latexextra.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-latexextra.r64783.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -960,14 +954,14 @@ Requires:	texlive-zwpagelayout
 A very large collection of add-on packages for LaTeX.
 
 %posttrans
-    %{_sbindir}/texlive.post -
+%{_sbindir}/texlive.post -
 
 #-----------------------------------------------------------------------
 %files
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
