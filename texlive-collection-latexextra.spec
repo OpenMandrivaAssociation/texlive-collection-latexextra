@@ -1,7 +1,7 @@
 Name:		texlive-collection-latexextra
 Epoch:		1
-Version:	65429
-Release:	2
+Version:	67542
+Release:	1
 Summary:	LaTeX additional packages
 Group:		Publishing
 URL:		http://tug.org/texlive
