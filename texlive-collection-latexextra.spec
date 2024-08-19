@@ -1,6 +1,6 @@
 Name:		texlive-collection-latexextra
 Epoch:		1
-Version:	71914
+Version:	72033
 Release:	1
 Summary:	LaTeX additional packages
 Group:		Publishing
