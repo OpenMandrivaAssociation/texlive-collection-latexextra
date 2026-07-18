@@ -1,5 +1,5 @@
 %global tl_name collection-latexextra
-%global tl_revision 79614
+%global tl_revision 79670
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -726,6 +726,7 @@ Requires:	texlive(halloweenmath)
 Requires:	texlive(handin)
 Requires:	texlive(handout)
 Requires:	texlive(handoutwithnotes)
+Requires:	texlive(handstroke)
 Requires:	texlive(hang)
 Requires:	texlive(hanging)
 Requires:	texlive(hardwrap)
@@ -1023,6 +1024,7 @@ Requires:	texlive(morehype)
 Requires:	texlive(moresize)
 Requires:	texlive(moreverb)
 Requires:	texlive(morewrites)
+Requires:	texlive(morse-simple)
 Requires:	texlive(movement-arrows)
 Requires:	texlive(movie15)
 Requires:	texlive(mparhack)
@@ -1290,6 +1292,7 @@ Requires:	texlive(rescansync)
 Requires:	texlive(resmes)
 Requires:	texlive(responsive)
 Requires:	texlive(returntogrid)
+Requires:	texlive(revbadge)
 Requires:	texlive(rgltxdoc)
 Requires:	texlive(rjlparshap)
 Requires:	texlive(rlepsf)
