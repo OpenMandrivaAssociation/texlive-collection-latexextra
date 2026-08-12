@@ -1,5 +1,5 @@
 %global tl_name collection-latexextra
-%global tl_revision 79819
+%global tl_revision 79943
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -843,7 +843,6 @@ Requires:	texlive(komacv-rg)
 Requires:	texlive(korigamik)
 Requires:	texlive(ktbox)
 Requires:	texlive(ktv-texdata)
-Requires:	texlive(l3backend-dev)
 Requires:	texlive(l3build)
 Requires:	texlive(l3kernel-dev)
 Requires:	texlive(labbook)
@@ -1704,7 +1703,7 @@ Requires:	texlive(zref-vario)
 Requires:	texlive(zugferd)
 Requires:	texlive(zwgetfdate)
 Requires:	texlive(zwpagelayout)
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 A very large collection of add-on packages for LaTeX.
